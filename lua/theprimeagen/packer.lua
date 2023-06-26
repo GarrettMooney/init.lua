@@ -44,6 +44,7 @@ return require('packer').startup(function(use)
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
+  use("tpope/vim-commentary")
   use("nvim-treesitter/nvim-treesitter-context");
 
   use {
@@ -73,6 +74,9 @@ return require('packer').startup(function(use)
   use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
+
+  -- go stuff
+  use("ray-x/go.nvim")
 
 end)
 

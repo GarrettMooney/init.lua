@@ -2,6 +2,11 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- use leader w to write the file
+vim.keymap.set("n", "<leader>w", ":w<CR>")
+-- use leader q to quit the file
+vim.keymap.set("n", "<leader>q", ":q<CR>")
+
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
