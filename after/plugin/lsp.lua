@@ -4,6 +4,8 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'gopls',
+  'html',
+  'julials',
   'pyright',
   'ruff_lsp',
   'rust_analyzer',
