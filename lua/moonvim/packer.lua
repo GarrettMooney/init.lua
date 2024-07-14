@@ -71,15 +71,13 @@ return require('packer').startup(function(use)
 
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
-  use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
 
   -- go stuff
   -- use("ray-x/go.nvim")
 
-  -- julia stuff
-  use("JuliaEditorSupport/julia-vim")
-  use("jpalardy/vim-slime")
+  -- for just files
+  use("NoahTheDuke/vim-just")
 
 end)
 
